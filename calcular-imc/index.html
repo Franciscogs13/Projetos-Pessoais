@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
     <div id="container">
         <div id="conteudo" class="conteudo">
             <h1>Calculadora IMC</h1>
             <label for="peso">Peso:</label>
-            <input type="number" name="peso" id="peso" required>
+            <input type="number" name="peso" id="peso" placeholder="Ex:1,75" required>
             <label for="altura">Altura:</label>
-            <input type="number" name="altura" id="altura" required>
+            <input type="number" name="altura" id="altura" placeholder="Ex: 62,5" required>
             <button id="
             btnClacular">CALCULAR</button>
+            <div id="res"></div>
         </div>
-        <div id="res"></div>
     </div>
 </body>
 </html>
