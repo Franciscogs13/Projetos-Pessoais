@@ -1,87 +1,72 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .conteudo {
-    width: 60%;
-    padding: 30px;
-  }
-  .conteudo h1{
-    font-size: 2.5em;
-    margin-bottom: 15px;
-  }
-  
+@media screen and (min-width: 768px) {
+    .conteudo {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .conteudo h1 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+
+    .conteudo input[type=number] {
+        width: 60%;
+        padding: 10px;
+    }
 }
 
-@media screen and (min-width:1024px) and (max-width:1200px){
-    #container{
-        background-image: url(../imagens/imagem-2.jpg);
-        background-position: left center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+@media screen and (min-width: 1024px) {
+    #container {
+        background-position: left;
     }
-    .conteudo{
-        width: 45%;
+
+    .conteudo {
+        width: 50%;
         padding: 30px;
-        display: flex;
-        justify-content: flex-start;
         align-items: flex-start;
     }
-    .conteudo h1{
-        font-size: 2.5em;
-        margin-bottom: 30px;
+
+    .conteudo h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
     }
-    .conteudo label{
+
+    .conteudo label {
         font-size: 2em;
     }
-    .conteudo input[type="number"]{
-        padding: 8px;
-        position: relative;
-        top: -34px;
-        right: -100px;
-        width: 50%;
-    }
-    .conteudo #peso{
-        position: relative;
-        top: -34px;
-        right: -83px;
-    }
-    .conteudo button{
-        padding: 15px 20px;
-        font-size: 16pt;
+
+    .conteudo input[type=number] {
+        width: 70%;
+        padding: 12px;
     }
 }
 
-@media screen and (min-width: 1200px){
-    .conteudo{
+@media screen and (min-width: 1200px) {
+    .conteudo {
         width: 45%;
     }
-    .conteudo h1{
-        text-align: center !important;
+
+    .conteudo h1 {
         font-size: 4vw;
         margin: 10px 15px;
         margin-bottom: 25px;
-        
     }
-    .conteudo label{
+
+    .conteudo label {
         margin-left: 15px;
         font-size: 2em;
     }
-    .conteudo input[type="number"]{
-        padding: 8px;
-        position: relative;
-        top: -33px;
-        right: -117px;
-    }
-    .conteudo #peso{
-        position: relative;
-        top: -33px;
-        right: -100px;
-    }
-    .conteudo button{
-        padding: 15px 20px;
-        margin: 0px 0px 10px 15px;
-        font-size: 16pt;
+
+    .conteudo input[type=number] {
+        width: 80%;
+        padding: 12px;
     }
 
+    .conteudo button {
+        padding: 15px 20px;
+        margin: 0 0 10px 15px;
+        font-size: 1.5em;
+    }
 }
