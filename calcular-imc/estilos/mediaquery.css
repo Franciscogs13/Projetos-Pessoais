@@ -1,5 +1,87 @@
 @charset "UTF-8";
 
-@media screen and (min-width:600px;) and (max-width:768px;){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .conteudo {
+    width: 60%;
+    padding: 30px;
+  }
+  .conteudo h1{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px){
+    #container{
+        background-image: url(../imagens/imagem-2.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .conteudo{
+        width: 45%;
+        padding: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .conteudo h1{
+        font-size: 2.5em;
+        margin-bottom: 30px;
+    }
+    .conteudo label{
+        font-size: 2em;
+    }
+    .conteudo input[type="number"]{
+        padding: 8px;
+        position: relative;
+        top: -34px;
+        right: -100px;
+        width: 50%;
+    }
+    .conteudo #peso{
+        position: relative;
+        top: -34px;
+        right: -83px;
+    }
+    .conteudo button{
+        padding: 15px 20px;
+        font-size: 16pt;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .conteudo{
+        width: 45%;
+    }
+    .conteudo h1{
+        text-align: center !important;
+        font-size: 4vw;
+        margin: 10px 15px;
+        margin-bottom: 25px;
+        
+    }
+    .conteudo label{
+        margin-left: 15px;
+        font-size: 2em;
+    }
+    .conteudo input[type="number"]{
+        padding: 8px;
+        position: relative;
+        top: -33px;
+        right: -117px;
+    }
+    .conteudo #peso{
+        position: relative;
+        top: -33px;
+        right: -100px;
+    }
+    .conteudo button{
+        padding: 15px 20px;
+        margin: 0px 0px 10px 15px;
+        font-size: 16pt;
+    }
 
 }
